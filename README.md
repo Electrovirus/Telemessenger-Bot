@@ -1,60 +1,4 @@
-#<p align="center">Telegram Proxy Bot 
-<p align="center">A simple BITM, for [Telegram](https://telegram.org/) acting as some kind of "proxy". Can use it as "virtual" second account for your purposes without revealing your "actual" identity.
-
-<p align ="center">Credits to **Groosha** for the actual version, I've simply added certain features which I thought were needed</p> <br>
-
- * [ChangeLog!](#changelog)
- * [Prerequisites](#prerequisites)
- * [How to install](#how-to-install)
- * [What's new ?](#whats-new-)
- * [How it works ?](#how-it-works)
-    * [Basic Functionality](#basic-functionality)
-    * [Blocking and Unblocking Feature](#blocking-and-unblocking-feature)
-    * [Available and Unavailable Feature](#available-and-unavailable-feature)
- * [Notes and restrictions](#notes-and-restrictions)
- * [Upcoming features](#upcoming-features)
- * [Remember](#remember)
- * [F.A.Q.](#faq)
- * [Contact](#contact)
-
-##ChangeLog!
-####Version 1.4.1 (current):
-   * **Major change:** Added launch.sh and launch2.sh. Simply run launch.sh to run the bot the features added by me and launch2.sh to run the original proxy bot
-   * Fixed some small bugs.
-    
-
-####Version 1.4.0:
-   * **Major change:** Removed the database methode of storing values. 
-   * **Added:** `Reply_to_message` feature. Now Admins can see what message the user replied to. Check [In Reply to](#in-reply-to) feature
-   * Fixed some small bugs.
-
-####Version 1.3:
-   * **Major Updated:** `/setblockmessage` and `/viewblockmessage` Admins can now set a custom block message.
-   * Fixed some minor bugs.
-   * **Bugs in this version:** Sometimes the bot fails to reply the user
-  
-
-####Version 1.2:
-   * **Major Update:** 
-     * **Added:**
-         * [Available and Unavailable Feature](#available-and-unavailable-feature)
-         * `/setunavailablemessage` feature
-         * `/viewblocklist` feature
-         * `/viewnicknames` feature
-   * **Bugs in this version:** No bugs as such
-   
-
-####Version1.1:
-   * **Major Update:** Improve the blocking functionality, admins can now block a user by `/block @username/nickname`
-   * **Bugs in this version:** No bugs as such
-   
-
-####Version1.0
-   * **Major Update**: Users can now block a user they want to by simply tapping `/block<userid>` and to unblock by `/unblock<userid>`
-   * **Bugs in this version** : The /block<userid> feature was a bit annoying (fixed in the next update)
- 
-   
- 
+#
 ## Prerequisites
 * Python 3 (works only with Python3);
 * [pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI/) library (with bot 2.0 support);
@@ -249,26 +193,3 @@ bot.send_message(message.chat.id, "Please click on [this](www.google.com)to sear
 8. This bot only works in the private chats, I've tried making it work in the groups but it didn't really worked, if you can improve this bot then do let [me](https://telegram.me/mrgigabytebot) know! I would be glad to make this work better
 9. You can use the `/help` command to view all the commands which you can use an admin
 ![screenshot](http://i.imgur.com/buBtWr5.png)
-
-## Upcoming Features
-* I would be working on adding some more helpful features for admins and maybe for the users as well let's see :)
-* Anti-Spam Feature, limiting messages sent per-second
-* Broadcast feature for admins, they can broadcast a certain message to selected users they want
-* idk maybe more ?? haha
-
-## Remember!
-I understand, that "proxy" bots can be used to prevent spammers from being reported, so if you encounter such bots that are used to do "bad" things, feel free to report them: [abuse@telegram.org](mailto:abuse@telegram.org)
-
-## F.A.Q
-#### 1. Will this bot work in groups/supergroups/channels ?
-For the time being this bot just works in private chats.
-
-#### 2. Can I use Emojis in my unavailable message ?
-Yes! You can use **ONLY** emojis or text in your unavailable message, you cannot save stickers/gifs in the unavailable message
-
-#### 3. Will I be able to skip my school/college/job ? 
-Unfortunately nope :( 
-
-## Contact
-You can contact me via my [Proxy Bot](https://telegram.me/mrgigabytebot).<br>
-**PS: Let me know if you need a new feature/tweak in this bot, please don't hesitate to text me :)**
